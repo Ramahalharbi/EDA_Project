@@ -13,7 +13,7 @@ Following a detailed Exploratory Data Analysis (EDA), the project implements a *
 Based on the Exploratory Data Analysis (EDA), a rule-based Recommendation System approach was selected for the following reasons:
 -  **Data Variability:** The Exploratory Data Analysis (EDA) revealed that the features did not have a strong mathematical correlation with the target outcomes (low signal-to-noise ratio). In such cases, a machine learning model would produce "confused" or inconsistent predictions. A deterministic rule-based system was chosen because it guarantees a specific, safe response for every input, ensuring that the system never provides a random or dangerous recommendation.
 - **AI Ethics & Safety:** In high-density environments like the Holy Mosque, deploying a model without absolute certainty in its mapping is a safety risk. 
-- **Interpretability:** A rule-based system provides clear, "if-then" logic that users and staff can immediately understand and trust.
+- **Interpretability:** A rule-based system provides clear, logic that users and staff can immediately understand and trust.
 - **Reliability:** By using predefined safety thresholds, the system avoids the unpredictability of classification errors, ensuring pilgrim well-being is always protected.
 
 ##  Features
